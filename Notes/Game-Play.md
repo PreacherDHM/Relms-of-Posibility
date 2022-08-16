@@ -1,6 +1,3 @@
-# Kodena Key Phrase
-become call season evolve evolve index mandate master demise negative legal baby
-
 
 # Game Play
 The game is a game about building your character up with a asortment of upgrades and items.
@@ -60,7 +57,6 @@ Loot Table:
 |      Normal      |  Component  |
 |       Hard       |   Mithic    |
 |     Extream      |  Legendary  |
-|:----------------:|:-----------:|
 
 The **Extream Difficolty** has a twist. If you die you could loos some of your items.
 But if you get throw the dongen you are reworded with a powerful and rare item.
@@ -94,15 +90,13 @@ When you get ep you can upgrade any of the stats that are spesified under **#Sta
 ## Armmor and Item Slots
 Each player has an assortment of slot. For Armmor slots there is:
 
-| Armmor Slots |           Breaf Summery          |
-|:------------:|:--------------------------------:|
-|    Helment   | Any thing that gose on the head  |
-|  Chest Peice | Any thing that gose on the torso |
-|   Leggings   | Any thing that gose on Legs      |
-|    Boots     | Any Thing that gose on feet      |
-|  Components  | Any thing that boots the players |
-|              | capibilitys                      |
-|:------------:|:--------------------------------:|
+| Armmor Slots |           Breaf Summery                      |
+|:------------:|:--------------------------------------------:|
+|    Helment   | Any thing that gose on the head              |
+|  Chest Peice | Any thing that gose on the torso             |
+|   Leggings   | Any thing that gose on Legs                  |
+|    Boots     | Any Thing that gose on feet                  |
+|  Components  | Any thing that boots the players capibilitys |
 
 Armmor can not only boost armmor points but, it can also give the player boosted
 Stats or add abilitys. For exsample you could have a boot that can walk on water
@@ -126,7 +120,6 @@ are:
 |  strangh  |
 |  agility  |
 |  Intolect |
-|:---------:|
 
 The Meening of each stat is:
 - **Speed** - Speed alows the player to move faster.
