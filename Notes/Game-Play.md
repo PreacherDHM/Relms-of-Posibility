@@ -1,4 +1,3 @@
-
 # Game Play
 The game is a game about building your character up with a asortment of upgrades and items.
 The game play loop is you the player going to to dungens and colecting loot and saving the people
@@ -76,6 +75,8 @@ check to see if the plot has those matereals. It will ask the block chain hey
 dose theys items exist. And if it dose then you would be able to with those items
 but if the server dosent have those items then you could leave just with out the 
 stuff that you baught / grinded to get.
+---
+
 
 # Player
 As the player there is a veriety of different acupations. Using the bounty system
