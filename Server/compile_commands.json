@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server",
+  "command": "/sbin/c++  -I/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/./src/includes -I/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/../Common/includes -std=gnu++17 -o CMakeFiles/ROPs.dir/src/main.cpp.o -c /home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/src/main.cpp",
+  "file": "/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/src/main.cpp"
+}
+]
