@@ -1,0 +1,3 @@
+/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/CMakeFiles/ROPs.dir
+/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/CMakeFiles/edit_cache.dir
+/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/CMakeFiles/rebuild_cache.dir

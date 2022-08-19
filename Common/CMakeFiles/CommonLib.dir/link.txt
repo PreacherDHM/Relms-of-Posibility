@@ -1,0 +1,1 @@
+/sbin/c++ -fPIC -shared -Wl,-soname,libCommonLib.so.0 -o libCommonLib.so.0.1 CMakeFiles/CommonLib.dir/src/Player.cpp.o 

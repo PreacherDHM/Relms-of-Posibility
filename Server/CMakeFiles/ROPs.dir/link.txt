@@ -1,0 +1,1 @@
+/sbin/c++ CMakeFiles/ROPs.dir/src/main.cpp.o -o ROPs   -L/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/../Common  -Wl,-rpath,/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Server/Server/../Common -lCommon 
