@@ -7,6 +7,7 @@
 #include <netinet/in.h>
 #include <errno.h>
 #include <unistd.h>
+#include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -22,7 +23,7 @@ int main() {
     int activity = 0;
 
     //packet buffer
-    char buffer[1025] = {0x61};
+    char buffer[1025] = {0};
     //initing address 
     struct sockaddr_in address;
     int addrlen = sizeof(address);
@@ -30,7 +31,7 @@ int main() {
     fd_set readFileDesripters;
 
 
-    const char* message = "Hey this is a test to see if this works\n Hi!!!\n";
+    const char* message = "Hey this is a test to see if this works \033[4;32m Hi!!!\n";
     
     //Creating the socket
     pInfo("NETWORK", "Creating the socket");
@@ -65,6 +66,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
+    //Loop
     while(true){
         FD_ZERO(&readFileDesripters);
 
@@ -81,8 +83,10 @@ int main() {
                 maxSocketDescripters = socketDescripter;
             }
         }
-        activity = select( maxSocketDescripters + 1, &readFileDesripters, NULL,
-                NULL, NULL);
+
+        activity = select( maxSocketDescripters + 1, &readFileDesripters, 
+                NULL, NULL, NULL); //getting the activity
+
         if((activity < 0) && (errno!=EINTR)){
             perror("[ERROR] SOCKET DESCRIPTER: Something whent wrong when checking the activity\n");
             exit(EXIT_FAILURE);
@@ -97,15 +101,16 @@ int main() {
             } 
 
             //Printing status of connection
-            printf("[NETWORK] NEW CONNECTION: there is a new connection\n {IP: %s, PORT: %d}",
+            pCat("NETWORK", "NEW CONNECTION", "there is a new connection");
+                    printf("{IP: %s, PORT: %d}\n",
                     inet_ntoa(address.sin_addr), ntohs(address.sin_port));
 
             //Sending packet
-            if(send(newSocket,message, sizeof(message)/sizeof(message[0]), 0) != sizeof(message)/sizeof(message[0])){
+            if(send(newSocket,message, strlen(message), 0) != strlen(message)){
                 perror("[ERROR] NETWORK: failed to send message/packet\n");
             }
 
-            printf("[INFO] NETWORK: Message was sent\n");
+            pInfo("NETWORK", "Message was sent");
 
             //adding the new connection to the cliant socket list (cliantSockets)
             for(int i = 0; i < maxSocketDescripters; i++){
@@ -129,7 +134,7 @@ int main() {
                   cliantSockets[i] = 0;
                 } else {
                     buffer[readBufferLen] = '\0';
-                    send(socketDescripter, buffer, sizeof(buffer)/sizeof(buffer[0]), 0);
+                    send(socketDescripter, buffer, (sizeof(buffer)/sizeof(buffer[0])) - 1, 0);
                 }
             }
         }
