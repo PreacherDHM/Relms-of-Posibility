@@ -127,11 +127,12 @@ int main() {
 
             if(FD_ISSET(socketDescripter, &readFileDesripters)){
                 if((readBufferLen = recv(socketDescripter, buffer, 1024, 0)) == 0){
-                   printf("[NETWORK] DISCONECT: A user has dissconected from the server\n{IP: %s, PORT: %d}",
-                           inet_ntoa(address.sin_addr), ntohs(address.sin_port));
+                    pCat("NETWORK", "DISCONECT", "A user has dissconected from the server");
+                    printf("{IP: %s, PORT: %d}", inet_ntoa(address.sin_addr),
+                            ntohs(address.sin_port));
 
-                  close(socketDescripter);
-                  cliantSockets[i] = 0;
+                    close(socketDescripter);
+                    cliantSockets[i] = 0;
                 } else {
                     buffer[readBufferLen] = '\0';
                     send(socketDescripter, buffer, (sizeof(buffer)/sizeof(buffer[0])) - 1, 0);
