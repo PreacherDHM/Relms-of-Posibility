@@ -53,7 +53,8 @@ CMakeFiles/ROPs.dir/src/main.cpp.o: \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/c++/12.1.0/stdlib.h \
+ /usr/include/linux/close_range.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/12.1.0/stdlib.h \
  /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
