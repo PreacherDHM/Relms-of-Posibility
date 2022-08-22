@@ -115,15 +115,15 @@ shooting fire from a gontlet or being able to dash.
 The Player has some stats that can be upgraded throw playing the game. Theys stats
 are:
 
-|   Stats   |
-|:---------:|
-|   speed   |
-|  strangh  |
-|  agility  |
-|  Intolect |
+|    Stats    |
+|:-----------:|
+|    speed    |
+|   strangh   |
+|   agility   |
+| Intelagents |
 
 The Meening of each stat is:
 - **Speed** - Speed alows the player to move faster.
 - **Strangh** - Strangh alows the Player to hit harder and to lift hevyer things
 - **Agility** - Agility alows the Player to attack faster.
-- **Intolect** - Intolect alows the Player to craft more thing.
+- **Intelagents** - Intelagents alows the Player to craft more thing.
