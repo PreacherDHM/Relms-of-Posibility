@@ -15,5 +15,5 @@ project(ROP VERSION 0.1)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(ROPs ./src/main.cpp)
-target_link_libraries(ROPs Common)
+add_executable(ROP ./src/main.cpp)
+target_link_libraries(ROP Common)

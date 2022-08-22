@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/preacher/Documents/Programming/hobbys/Relms-Of-Posibili
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ROPs.dir/all
+all: CMakeFiles/ROP.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ROPs.dir/clean
+clean: CMakeFiles/ROP.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ROPs.dir
+# Target rules for target CMakeFiles/ROP.dir
 
 # All Build rule for target.
-CMakeFiles/ROPs.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ROPs.dir/build.make CMakeFiles/ROPs.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ROPs.dir/build.make CMakeFiles/ROPs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Cliant/Cliant/CMakeFiles --progress-num=1,2 "Built target ROPs"
-.PHONY : CMakeFiles/ROPs.dir/all
+CMakeFiles/ROP.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ROP.dir/build.make CMakeFiles/ROP.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ROP.dir/build.make CMakeFiles/ROP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Cliant/Cliant/CMakeFiles --progress-num=1,2 "Built target ROP"
+.PHONY : CMakeFiles/ROP.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ROPs.dir/rule: cmake_check_build_system
+CMakeFiles/ROP.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Cliant/Cliant/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ROPs.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ROP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/preacher/Documents/Programming/hobbys/Relms-Of-Posibilitys/Relms-of-Posibility.git/Cliant/Cliant/CMakeFiles 0
-.PHONY : CMakeFiles/ROPs.dir/rule
+.PHONY : CMakeFiles/ROP.dir/rule
 
 # Convenience name for target.
-ROPs: CMakeFiles/ROPs.dir/rule
-.PHONY : ROPs
+ROP: CMakeFiles/ROP.dir/rule
+.PHONY : ROP
 
 # clean rule for target.
-CMakeFiles/ROPs.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ROPs.dir/build.make CMakeFiles/ROPs.dir/clean
-.PHONY : CMakeFiles/ROPs.dir/clean
+CMakeFiles/ROP.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ROP.dir/build.make CMakeFiles/ROP.dir/clean
+.PHONY : CMakeFiles/ROP.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
